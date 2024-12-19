@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+<style>
+    *, html {
+        padding: 0;
+        margin: 0;
+        font-family: poppins;
+    }
+    
+    body{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        background-color: #00111A;
+        height: 100vh;
+    }
+
+    li{
+        display: flex;
+        flex-direction: column;
+    }
+    ul li  {
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    /* ul li :hover  {
+        box-shadow: 0px 1px 97px 33px rgba(72,200,175,0.58);
+        -webkit-box-shadow: 0px 1px 97px 33px rgba(72,200,175,0.58);
+        -moz-box-shadow: 0px 1px 97px 33px rgba(72,200,175,0.58);
+        transition: 1s;
+    } */
+
+    ul li a  {  
+        text-decoration: none;
+        color: rgb(72, 200, 175); 
+        transition: 0.5s;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    ul li a:hover {
+        transition: 0.5s ease-in;
+        text-decoration: underline;
+    }
+
+    .btn {
+            width: 100px;
+            height: 30px;
+            outline: none;
+            padding: 10px 35;
+            border: 2px solid #48ffaf94;
+            background-color: transparent;
+            color: #48ffaf94;
+            cursor: pointer;
+            border-radius: 50px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #48ffaf94;
+            color: #00111A;
+            transition: 0.3;
+        }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<body>
+    <!-- <ul>
+        <li><a href="home.html" target="kiri">Home</a></li>
+        <li><a href="profile.html" target="kiri">About Us</a></li>
+        <li><a href="galery.html" target="kiri">Gallery</a></li>
+        <li><a href="kontak.html" target="kiri">Contact us</a></li>
+    </ul> -->
+
+    <ul>
+        <li><a href="home.html" target="kiri"><button class="btn">Home</button></a></li>
+        <li><a href="profile.html" target="kiri"><button class="btn">About Us</button></a></li>
+        <li><a href="galery.html" target="kiri"><button class="btn">Gallery</button></a></li>
+        <li><a href="kontak.html" target="kiri"><button class="btn">Contact Us</button></a></li>
+    </ul>
+</body>
+</html>
